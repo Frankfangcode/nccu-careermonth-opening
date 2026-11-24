@@ -11,12 +11,14 @@
 | `index.html` | 主要版本（同第二版）。Canvas 2D 摺疊水晶切面、白光入射與光譜色散 |
 | `versions/v1-canvas-shards.html` | 第一版。Canvas 2D 放射狀色片 |
 | `versions/v2-prism-facets.html` | 第二版，與 `index.html` 內容相同 |
-| `versions/v3-layered-keyvisual.html` | 分層版。用 SVG 把主視覺的每個元素（稜鏡光帶、霧面切面、圓點、白線、標題）各畫成獨立圖層並分別做動畫，不嵌入任何圖片 |
+| `versions/v3-shader-pastel.html` | 第三版。WebGL 折射 shader，粉彩切面、中央留白 |
+| `versions/v4-keyvisual-texture/` | 第四版。把主視覺原圖當貼圖做折射，最後揭曉整張海報（需要同資料夾的圖檔，要用網頁伺服器開啟） |
+| `versions/v5-layered-keyvisual.html` | 第五版。用 SVG 把主視覺的每個元素各畫成獨立圖層並分別做動畫，不嵌入任何圖片 |
 | `shaders/prism.frag` | 純程式折射 shader（WebGL），粉彩切面版 |
 | `shaders/kv.frag` | 以主視覺圖為貼圖的折射 shader |
 | `remotion/` | Remotion 影片專案（1920×1080、30fps、12 秒）：能量滿格 → 3-2-1 → 炸開 → 揭曉主視覺。使用 `remotion/public/kv.jpg` 主視覺圖 |
 
-每個 HTML 都是單一檔案，直接用瀏覽器打開即可。
+除第四版外，每個 HTML 都是單一檔案，直接用瀏覽器打開即可。
 
 ## 操作
 
