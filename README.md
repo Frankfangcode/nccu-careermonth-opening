@@ -14,6 +14,7 @@
 | `versions/v3-shader-pastel.html` | 第三版。WebGL 折射 shader，粉彩切面、中央留白 |
 | `versions/v4-keyvisual-texture/` | 第四版。把主視覺原圖當貼圖做折射，最後揭曉整張海報（需要同資料夾的圖檔，要用網頁伺服器開啟） |
 | `versions/v5-layered-keyvisual.html` | 第五版。用 SVG 把主視覺的每個元素各畫成獨立圖層並分別做動畫，不嵌入任何圖片 |
+| `versions/v6-ai-layers/` | 第六版。直接從主視覺的 Illustrator 原始檔拆出 57 個圖層（保留原本的混合模式與透明度），每層各自做動畫（需要同資料夾的 `layers/`，要用網頁伺服器開啟） |
 | `shaders/prism.frag` | 純程式折射 shader（WebGL），粉彩切面版 |
 | `shaders/kv.frag` | 以主視覺圖為貼圖的折射 shader |
 | `remotion/` | Remotion 影片專案（1920×1080、30fps、12 秒）：能量滿格 → 3-2-1 → 炸開 → 揭曉主視覺。使用 `remotion/public/kv.jpg` 主視覺圖 |
